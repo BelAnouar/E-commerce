@@ -1,0 +1,36 @@
+
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.sing-up{
+  text-align: left;
+  clip-path:polygon(0% 0%,100% 0%,100% clac(100% -15px),0% 100%);
+}
+
+.sing-up p{
+  font-size: 22px;
+
+}
+.check{
+   color:  #53BF9D;
+}
+.x-mark{
+  color: #F94C66;
+}
+.pricing-column{
+
+  padding: 3% 2%;
+  border-radius: 10px;
+
+}

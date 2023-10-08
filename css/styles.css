@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+    box-sizing: border-box;
+    width: inherit;
+
+}
+#title{
+  background-color: #f3f3f3;
+
+}
+
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+
+}
+h1,h2,h3,h4,h6{
+    font-family: "Montserrat-Bold";
+}
+
+h3{
+
+  font-size: 1.5rem;
+}
+button:focus {
+  outline: none;
+}
+.Basket:hover{
+  background-color: #333;;
+}
+
+.btn:hover {
+  background-color: #5ec576;
+}
+.btn-text {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 500;
+  color: #5ec576;
+  border: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  cursor: pointer;
+
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-item{
+  padding: 0 18px;
+  margin-left: 15;
+}
+.nav-link{
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+
+}
+
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* Brows computer */
+
+.collection .product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 15px;
+    padding: 15px;
+
+}
+
+
+.product .coll{
+    width: 100%;
+    height:100%;
+}
+
+.product img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+/* coll */
+
+.coll{
+  overflow: hidden;
+}
+.coll img{
+  transition: all 1.5s ease;
+}
+.coll:hover img{
+  transform: scale(1.1);
+
+
+}
+
+/* Pressed */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+
+/* contant */
+#contant{
+
+  padding: 100px;
+
+}
+.product-home{
+  display: inline-grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 4em;
+  padding-left:  1.5em;
+  justify-content: space-between;
+  height: fit-content;
+
+}
+#canvas3d{
+  border-radius: 4%;
+}
+.product-home a{
+    text-decoration: none;
+    color: #333;
+}
+.product-home a:hover{
+    text-decoration: none;
+    color: #333;
+}
+.product-home div{
+    height: 100%;
+}
+.product-home img{
+    width: 100%;
+
+}
+.product-home img:hover{
+    opacity: 0.7;
+    transition: all 0.5s ease-in;
+}
+.product-home img{
+  background-color: #f3f3f3;
+  border-radius: 2%;
+}
+.product-home .btn{
+  margin-left: 30%;
+}
+/* AD */
+
+
+.girl-ad{
+  width:100%;
+   background-size: contain;
+}
+/* Press */
+#press{
+  background-color: #f3f3f3;
+
+  padding: 3%;
+
+}
+.press-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.press-img{
+  width: 10%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+
+
+
+
+
+
+.hidden{
+
+  visibility: hidden;
+
+}
+.highlight {
+  position: relative;
+  margin-left: 5%;
+}
+
+.highlight::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-color: #5ec576;
+}
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f3f3f3;
+  border-radius: 5%;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.title-video{
+  font-size: 2.25rem;
+  margin-bottom: 4.5rem;
+  line-height: 1.5;
+  float: left;
+}
+.vid2{
+  margin: 0 0 10% 10% ;
+
+ border: 1px solid #ddd;
+ border-radius: 0.5rem;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+/* footer */
+
+footer{
+  background-color: #f3f3f3;
+}
+.nav-footer{
+  margin: 2%;
+  padding: 1.5%;
+  position: relative;
+}
+.footer-title{
+font-weight: bold;
+font-family: "Montserrat-Black";
+}
+/* Medi */
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+
+  }
+  .title-img{
+    transform: rotate(0deg);
+    position: static;
+  }
+  .vid2{
+    height: auto;
+    width: auto;
+  }
+
+}

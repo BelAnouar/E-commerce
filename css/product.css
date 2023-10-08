@@ -1,0 +1,212 @@
+#shop{
+  display: block;
+  padding: 5px 10px;
+}
+#shop input{
+   width: 70px;
+   height: 40px;
+   padding-left: 5px;
+   margin-right: 10px;
+}
+
+
+.line{
+
+
+  border-style: none;
+  border-top-style: dotted;
+  border-width:  5px;
+  border-color: grey;
+  width: 5%;
+ justify-content: center;
+}
+/* Features */
+#Features {
+  padding: 2% 10%;
+}
+#Features h6{
+  margin-left: 20%;
+}
+#Features small{
+  margin-left: 12%;
+}
+#Features .btn{
+  margin-left: 25%;
+}
+
+img{
+  background-color: #f3f3f3;
+  border-radius: 2%;
+}
+.product-view .btn{
+  margin-left: 30%;
+}
+
+.Body_page{
+  width: 95%;
+
+}
+
+.card-p{
+  text-align: center;
+}
+.product-view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    justify-content: space-between;
+    height: fit-content;
+}
+.product-view a{
+    text-decoration: none;
+    color: #333;
+}
+.product-view a:hover{
+    text-decoration: none;
+    color: #333;
+}
+.product-view div{
+    height: 100%;
+}
+.product-view img{
+    width: 100%;
+
+}
+.product-view img:hover{
+    opacity: 0.7;
+    transition: all 0.5s ease-in;
+}
+.modals{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40rem;
+  background-color: #f3f3f3;
+  padding: 2rem 4rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  overflow: hidden;
+
+}
+
+.modal__header {
+  font-size: 2rem;
+  margin-bottom: 1.1rem;
+
+}
+
+.modal__form {
+  margin: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2.5rem;
+  transition: 0.5s;
+
+}
+/* ///image */
+
+.image-pc{
+	margin: auto;
+	padding: 8rem 3rem;
+	background-image: url(https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/en/heroes/homepage-hero-desktop-dark-2400x696-sl-logo-right.png?fmt=pjpg&pscan=auto&scl=1&hei=696&wid=2400&qlt=100,0&resMode=sharp2&size=2400,696&op_usm=1.75,0.3,2,0);
+  text-align: left;
+  background-size: cover;
+
+
+}
+.image-pc h2{
+	background-color: #fff;
+	mix-blend-mode: screen;
+	margin-bottom: 4px;
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+
+}
+.image-pc p{
+	color: #fff;
+	padding: 0 5px;
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+.image-pc button:hover{
+	background-color: #C9E4C5;
+}
+
+/* ///fillter */
+.color-title{
+	font-size: 1.8rem;
+	color: #0B121A;
+}
+.custom-checkbox{
+	font-size: .8rem;
+	color: #8E98A8;
+}
+.custom-control-input:focus~.custom-control-label::before {
+	border-color: #52B3A9;
+	box-shadow: 0 0 0 0.2rem #D7EDEB ;
+}
+
+.custom-control-label:before {
+	border: 2px solid #52B3A9;
+}
+.card-filter{
+
+  width: 80%;
+	left:  2rem;
+	padding: 1rem;
+	border-radius: 15px;
+	margin-bottom: 3px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+}
+
+.inputBox input {
+
+  padding: 0.25rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-sizing: inherit;
+}
+
+
+
+.btn--close-modal {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.submit-btn{
+
+  padding:5px;
+  font-size: 17px;
+
+  margin-top: 3px;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  background: #2ecc71;
+}
+#Item-basket h1{
+    
+  text-align: left;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 300;
+    padding: 8px;
+
+}
+.item-span{
+  font-size:1.5rem;
+}
+
+
